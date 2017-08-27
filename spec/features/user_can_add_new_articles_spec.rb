@@ -8,7 +8,7 @@ RSpec.describe "Articles" do
 
       visit '/articles/new'
 
-      fill_in("Title", with: "Article_3", )
+      fill_in("Title", with: "Article_3")
       fill_in("Body", with: "This is really cool stuff in the body")
       click_on("Create Article")
 
