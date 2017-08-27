@@ -11,7 +11,7 @@ RSpec.describe "Articles" do
       expect(current_path).to eq(articles_path)
 
       expect(page).to have_content("Article_1")
-      expect(page).to have_content("this is where we would write something")
+      expect(page).to have_content("Article_2")
     end
   end
 end
